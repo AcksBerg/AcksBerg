@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPT Realism Mod Ammo Graph</title>
+    <script src="data.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #161414;
+            color: #168638;
+        }
+        .caliber-buttons {
+            margin-bottom: 20px;
+        }
+        .caliber-buttons button {
+            margin: 5px;
+            background-color: #333333;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .caliber-buttons button:hover {
+            background-color: #555555;
+        }
+        .caliber-buttons button.active {
+            background-color: #1E88E5;
+        }
+        #ammoChartContainer {
+            width: 1000px;
+            height: 800px;
+        }
+        #ammoChart {
+            width: 100%;
+            height: 100%;
+        }
+        #axisSelectContainer {
+            margin-bottom: 20px;
+        }
+        #axisSelectContainer select {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="ammoChartContainer">
+        <div id="axisSelectContainer">
+            <label for="x-axis-select">X-Axis:</label>
+            <select id="x-axis-select">
+                <option value="PenetrationPower">Penetration</option>
+                <option value="Damage">Damage</option>
+                <option value="ArmorDamage">Armor Damage</option>
+                <option value="ProjectileCount">Projectile Count</option>
+                <option value="InitialSpeed">Initial Speed</option>
+                <option value="BallisticCoeficient">Ballistic Coefficient</option>
+                <option value="RicochetChance">Ricochet Chance</option>
+                <option value="FragmentationChance">Fragmentation Chance</option>
+                <option value="BulletMassGram">Bullet Mass (g)</option>
+                <option value="HeavyBleedingDelta">Heavy Bleeding Delta</option>
+                <option value="LightBleedingDelta">Light Bleeding Delta</option>
+                <option value="MalfFeedChance">Malf Feed Chance</option>
+                <option value="MalfMisfireChance">Malf Misfire Chance</option>
+                <option value="HeatFactor">Heat Factor</option>
+                <option value="DurabilityBurnModificator">Durability Burn Modificator</option>
+            </select>
+            <label for="y-axis-select">Y-Axis:</label>
+            <select id="y-axis-select">
+                <option value="PenetrationPower">Penetration</option>
+                <option value="Damage">Damage</option>
+                <option value="ArmorDamage">Armor Damage</option>
+                <option value="ProjectileCount">Projectile Count</option>
+                <option value="InitialSpeed">Initial Speed</option>
+                <option value="BallisticCoeficient">Ballistic Coefficient</option>
+                <option value="RicochetChance">Ricochet Chance</option>
+                <option value="FragmentationChance">Fragmentation Chance</option>
+                <option value="BulletMassGram">Bullet Mass (g)</option>
+                <option value="HeavyBleedingDelta">Heavy Bleeding Delta</option>
+                <option value="LightBleedingDelta">Light Bleeding Delta</option>
+                <option value="MalfFeedChance">Malf Feed Chance</option>
+                <option value="MalfMisfireChance">Malf Misfire Chance</option>
+                <option value="HeatFactor">Heat Factor</option>
+                <option value="DurabilityBurnModificator">Durability Burn Modificator</option>
+            </select>
+        </div>
+        <div class="caliber-buttons" id="caliberButtons"></div>
+        <canvas id="ammoChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
