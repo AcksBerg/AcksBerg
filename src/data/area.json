@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Vents",
+    "areaId": 0,
+    "maxLevel": 3
+  },
+  {
+    "name": "Security",
+    "areaId": 1,
+    "maxLevel": 3
+  },
+  {
+    "name": "Lavatory",
+    "areaId": 2,
+    "maxLevel": 3
+  },
+  {
+    "name": "Stash",
+    "areaId": 3,
+    "maxLevel": 4
+  },
+  {
+    "name": "Generator",
+    "areaId": 4,
+    "maxLevel": 3
+  },
+  {
+    "name": "Heating",
+    "areaId": 5,
+    "maxLevel": 3
+  },
+  {
+    "name": "Water Collector",
+    "areaId": 6,
+    "maxLevel": 3
+  },
+  {
+    "name": "Medstation",
+    "areaId": 7,
+    "maxLevel": 3
+  },
+  {
+    "name": "Nutrition Unit",
+    "areaId": 8,
+    "maxLevel": 3
+  },
+  {
+    "name": "Rest Space",
+    "areaId": 9,
+    "maxLevel": 3
+  },
+  {
+    "name": "Workbench",
+    "areaId": 10,
+    "maxLevel": 3
+  },
+  {
+    "name": "Intelligence Center",
+    "areaId": 11,
+    "maxLevel": 3
+  },
+  {
+    "name": "Shooting Range",
+    "areaId": 12,
+    "maxLevel": 1
+  },
+  {
+    "name": "Library",
+    "areaId": 13,
+    "maxLevel": 1
+  },
+  {
+    "name": "Scav Case",
+    "areaId": 14,
+    "maxLevel": 1
+  },
+  {
+    "name": "Illumination",
+    "areaId": 15,
+    "maxLevel": 3
+  },
+  {
+    "name": "Place of Fame",
+    "areaId": 16,
+    "maxLevel": 1
+  },
+  {
+    "name": "Air Filtrering Unit",
+    "areaId": 17,
+    "maxLevel": 1
+  },
+  {
+    "name": "Solar Power",
+    "areaId": 18,
+    "maxLevel": 1
+  },
+  {
+    "name": "Booze Generator",
+    "areaId": 19,
+    "maxLevel": 1
+  },
+  {
+    "name": "Bitcoin Farm",
+    "areaId": 20,
+    "maxLevel": 3
+  },
+  {
+    "name": "Christmas Tree",
+    "areaId": 21,
+    "maxLevel": 1
+  },
+  {
+    "name": "Broken Wall",
+    "areaId": 22,
+    "maxLevel": 6
+  },
+  {
+    "name": "Gym",
+    "areaId": 23,
+    "maxLevel": 2
+  },
+  {
+    "name": "Weapon Wall",
+    "areaId": 24,
+    "maxLevel": 3
+  }
+]
